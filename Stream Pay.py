@@ -6,7 +6,7 @@ import random, string
 app = Flask(__name__)
 
 # Firebase Initialization
-cred = credentials.Certificate("path/to/your/firebase/credentials.json")
+cred = credentials.Certificate("stream-pay-5ad80-firebase-adminsdk-fbsvc-6d62a1b123.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
